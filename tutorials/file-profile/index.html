@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>File profile - Xtended Content Documentation</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Xtended Content Documentation</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../modules/xtc/">Xtended Content</a>
+</li>
+                                    
+<li >
+    <a href="../../modules/xtcfile/">Xtended Content File</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plugins <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../plugins/plugins-by-modules/">Plugins by modules</a>
+</li>
+                                    
+<li >
+    <a href="../../plugins/xtc-plugins/">XTC plugins</a>
+</li>
+                                    
+<li >
+    <a href="../../plugins/xtcelastica-plugins/">XTC Elastica plugins</a>
+</li>
+                                    
+<li >
+    <a href="../../plugins/xtcfile-plugins/">XTC File plugins</a>
+</li>
+                                    
+<li >
+    <a href="../../plugins/xtcguzzle-plugins/">XTC Guzzle plugins</a>
+</li>
+                                    
+<li >
+    <a href="../../plugins/xtcsearch-plugins/">XTC Search plugins</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Helpers <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../helpers/config">XTC Config helpers</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../search-page/">Creating a search page</a>
+</li>
+                                    
+<li >
+    <a href="../search-block/">Creating a search block</a>
+</li>
+                                    
+<li >
+    <a href="../search-profile/">Search profile</a>
+</li>
+                                    
+<li >
+    <a href="../search-display/">Search display</a>
+</li>
+                                    
+<li >
+    <a href="../elastica-profile/">Elastica profile</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">File profile</a>
+</li>
+                                    
+<li >
+    <a href="../guzzle-profile/">Guzzle profile</a>
+</li>
+                                    
+<li >
+    <a href="../source/">Defining a Source</a>
+</li>
+                                    
+<li >
+    <a href="../server/">Defining a Server</a>
+</li>
+                                    
+<li >
+    <a href="../request/">Defining a Request</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../elastica-profile/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../guzzle-profile/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.drupal.org/project/xtc">Www</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#file-profile">File profile</a></li>
+            <li><a href="#loading-a-file-profile">Loading a File profile</a></li>
+            <li><a href="#plugin-definition">Plugin definition</a></li>
+            <li><a href="#yaml-file">Yaml file</a></li>
+            <li><a href="#structure">Structure</a></li>
+            <li><a href="#extending-types-list">Extending types list</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="file-profile">File profile<a class="headerlink" href="#file-profile" title="Permanent link">&para;</a></h1>
+<h2 id="loading-a-file-profile">Loading a File profile<a class="headerlink" href="#loading-a-file-profile" title="Permanent link">&para;</a></h2>
+<p>To load a content, simply provide the profile name to the <code>getFile()</code> static function from the helper class <code>\Drupal\xtc\XtendedContent\API\Config</code>. </p>
+<pre><code class="php">$content = \Drupal\xtc\XtendedContent\API\Config::getFile('test_text');
+</code></pre>
+
+<h2 id="plugin-definition">Plugin definition<a class="headerlink" href="#plugin-definition" title="Permanent link">&para;</a></h2>
+<p>This is a Drupal 8 YAML plugin.</p>
+<h2 id="yaml-file">Yaml file<a class="headerlink" href="#yaml-file" title="Permanent link">&para;</a></h2>
+<p>The profiles can be defined in a YAML file that follows this pattern: 
+<code>[module_name].xtc_profiles.yml</code>.</p>
+<p>The plugin is defined in the Xtended Content (<code>xtc</code>) module: <code>xtc/src/PluginManager/XtcProfile/XtcProfilePluginManager.php</code>.</p>
+<h2 id="structure">Structure<a class="headerlink" href="#structure" title="Permanent link">&para;</a></h2>
+<p>A File profile definition looks lake this:</p>
+<pre><code class="yaml">test_text:
+  label: 'Text file'
+  description: ''
+  type: 'text'
+  abs_path: false
+  module: 'xtcfile'
+  path: 'example/demo.txt'
+</code></pre>
+
+<p><code>label</code> (string) and <code>description</code> (string) are mandatory for any Drupal 8 plugin definition.</p>
+<h3 id="handler-type-type-string">Handler type <code>type</code> (string)<a class="headerlink" href="#handler-type-type-string" title="Permanent link">&para;</a></h3>
+<p>Available types provided by the XTC File are:</p>
+<ul>
+<li>Csv <code>csv</code>: use <code>LoadCsv</code> class (based on <a href="">https://github.com/parsecsv/parsecsv-for-php</a>) to load Comma-Separated Values files. </li>
+<li>Html <code>html</code>: load HTML file. </li>
+<li>Json <code>json</code>: load Json file through Drupal Json serializer.</li>
+<li>Markdown <code>md</code>: use <code>LaodMarkdown</code> class (using <strong>erusev/parsedown</strong>, <a href="">https://github.com/erusev/parsedown</a>) to load Markdown content.  </li>
+<li>Text<code>text</code>: load plain Text file.</li>
+<li>Yaml <code>yaml</code>: load Yaml file through Drupal Yaml serializer.</li>
+</ul>
+<h4 id="dynamic-handlers">Dynamic handlers<a class="headerlink" href="#dynamic-handlers" title="Permanent link">&para;</a></h4>
+<p>Two dynamic handlers are provided for Documentation:</p>
+<ul>
+<li>MkDocs <code>mkdocs</code>: provide a light API to display MkDocs (<a href="">https://www.mkdocs.org/</a>) based documentation in the administration area.</li>
+<li>Readme <code>readme</code>: extends Markdown type to provide display modules Readme files in the administration area.</li>
+</ul>
+<p><code>getDocs()</code> static function from <code>\Drupal\xtc\XtendedContent\API\Config</code> provides an example for dynamics handlers:</p>
+<pre><code class="php">public static function getDocs($module){
+  $profile = [
+    'type' =&gt; 'mkdocs',
+    'abs_path' =&gt; false,
+    'module' =&gt; $module,
+    'path' =&gt; 'help/mkdocs.yml',
+  ];
+  $content = self::getFromProfile($profile);
+  if(!empty($content) &amp;&amp; is_array($content)) {
+    return $content;
+  }
+  return &quot;&lt;h2&gt;Documentation needs to be created.&lt;/h2&gt;
+         &lt;p&gt;Documentation follows &lt;b&gt;&lt;a href='https://www.mkdocs.org/' target='_blank'&gt;
+         mkdocs&lt;/a&gt;&lt;/b&gt; standards.&lt;/p&gt;
+      &quot;;
+}
+</code></pre>
+
+<p><code>Config::getFromProfile()</code> needs to be used in that case.
+This function directly trigger a <code>get()</code>;</p>
+<pre><code class="php">public static function getFromProfile($profile){
+  return self::getHandler($profile['type'])
+             -&gt;setProfile($profile)
+             -&gt;setOptions()
+             -&gt;get();
+  ;
+}
+</code></pre>
+
+<p>If for any reason, an action needs to be done before the get(), the <code>Config::getHandlerFromProfile()</code> can be prefered: </p>
+<pre><code class="php">public static function getHandlerFromProfile($profile){
+  return self::getHandler($profile['type'])
+             -&gt;setProfile($profile)
+             -&gt;setOptions();
+  ;
+}
+</code></pre>
+
+<h3 id="absolute-path-abs_path-boolean">Absolute path <code>abs_path</code> (boolean)<a class="headerlink" href="#absolute-path-abs_path-boolean" title="Permanent link">&para;</a></h3>
+<p>Whether the provided path is absolute or local.</p>
+<h3 id="module-module-string">Module <code>module</code> (string)<a class="headerlink" href="#module-module-string" title="Permanent link">&para;</a></h3>
+<p>Module machinename where the file is expected to be found.</p>
+<h3 id="path-path-string">Path <code>path</code> (string)<a class="headerlink" href="#path-path-string" title="Permanent link">&para;</a></h3>
+<p>Path from the module root directory.</p>
+<h2 id="extending-types-list">Extending types list<a class="headerlink" href="#extending-types-list" title="Permanent link">&para;</a></h2>
+<p>Any new File type handler should be based on <code>\Drupal\xtcfile\Plugin\XtcHandler\FileBase</code>.</p>
+<p>Example from the <code>Text</code> type:</p>
+<pre><code class="php">namespace Drupal\xtcfile\Plugin\XtcHandler;
+
+/**
+ * Plugin implementation of the xtc_handler.
+ *
+ * @XtcHandler(
+ *   id = &quot;text&quot;,
+ *   label = @Translation(&quot;Text File for XTC&quot;),
+ *   description = @Translation(&quot;Text File for XTC description.&quot;)
+ * )
+ */
+class Text extends FileBase
+{
+
+}
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../js/fix_search.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
